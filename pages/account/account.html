@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="account.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/83045efcea.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- popup thông báo -->
+      <div class="popup-container">
+        <div class="popup">
+          <h3>Thêm Địa Chỉ Mới</h3>
+          <div class="input-group">
+            <span>Thành Phố</span>
+            <input type="text" name="city" id="input-city" />
+            <div class="list-city">
+              <ul>
+                <li>Tên Tỉnh</li>
+                <li>Tên Tỉnh</li>
+              </ul>
+            </div>
+          </div>
+          <div class="input-group">
+            <span>Huyện, Quận</span>
+            <input type="text" name="district" id="input-dis" />
+            <div class="list-dis">
+              <ul>
+                <li>Tên Huyện, quận</li>
+                <li>Tên Huyện, quận</li>
+              </ul>
+            </div>
+          </div>
+          <div class="input-group">
+            <span>Xã, Phường</span>
+            <input type="text" name="wards" id="input-wards" />
+            <div class="list-wards">
+              <ul>
+                <li>Tên Xã, Phường</li>
+                <li>Tên Xã, phường</li>
+              </ul>
+            </div>
+          </div>
+          <div class="input-group">
+            <span>Địa Chỉ</span>
+            <input
+              type="text"
+              name="address"
+              id="input-address"
+              placeholder="số nhà, ấp,..."
+            />
+          </div>
+          <div class="input-group">
+            <input type="button" id="button-add" value="THÊM" />
+          </div>
+          <div class="input-group">
+            <input type="button" id="button-cancel" value="HỦY" />
+          </div>
+        </div>
+      </div>
+      <!-- nút scroll to top -->
+      <div class="btnToTop">
+        <i
+          style="width: 20px; height: 20px; color: white"
+          class="fa-regular fa-hand-point-up"
+        ></i>
+      </div>
+      <!-- Thông tin đầu trang -->
+      <div class="container-contact">
+        <div class="contact">
+          <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <p>regfood@gmail.com</p>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <p>+96487452145214</p>
+          </div>
+        </div>
+        <div class="socialmedia">
+          <div class="item">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+      </div>
+      <!-- menu chính chứa logo , menu, giỏ hàng và user -->
+      <div class="main-menu">
+        <img class="logo" src="../../assets/image/logo.png" alt="Logo chính" />
+        <div class="menu">
+          <ul>
+            <li><a href="../home/home.html">Trang chủ</a></li>
+            <li><a href="../about/about.html">Giới thiệu</a></li>
+            <li><a href="../menu/menu.html">Thực đơn</a></li>
+            <li><a href="../blogs/blogs.html">Blog</a></li>
+            <li><a href="../contact/contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="other">
+          <div id="icon-cart-view" class="icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div id="icon-login" class="icon">
+            <i class="fa-solid fa-user"></i>
+            <div class="nav-menu">
+              <ul>
+                <li>Đăng Nhập</li>
+                <li>Đăng Ký</li>
+              </ul>
+            </div>
+            <div class="nav-menu">
+              <ul>
+                <li>Tài Khoản</li>
+                <li>Đăng Xuất</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- backgound chính -->
+      <div class="bg-banner">
+        <div class="banner"></div>
+        <div class="blue-screen">
+          <h1>Thông Tin Khách Hàng</h1>
+          <div class="control">
+            <i class="fa-solid fa-house"></i>
+            <p id="home">Trang Chủ</p>
+            <p>Thông Tin Khách Hàng</p>
+          </div>
+        </div>
+      </div>
+      <!-- Thông Tin Khách hàng -->
+      <div class="account-area">
+        <div class="account-left">
+          <div class="header">
+            <img alt="Hình Ảnh Khách Hàng" />
+            <h3>Tên Khách Hàng</h3>
+          </div>
+          <div class="body">
+            <ul>
+              <li>Thông Tin Cơ Bản</li>
+              <li>Danh Sách Địa Chỉ</li>
+              <li>Đổi Mật Khẩu</li>
+              <li>Đăng Xuất</li>
+            </ul>
+          </div>
+        </div>
+        <div class="account-right">
+          <div class="infor">
+            <div class="header">
+              <h3>Thông Tin Cơ Bản</h3>
+              <button id="edit">Chỉnh Sửa</button>
+            </div>
+            <div class="body">
+              <div class="infor-group">
+                <span>Họ Và Tên : </span>
+                <p id="name">Tên Khách Hàng</p>
+              </div>
+              <div class="infor-group">
+                <span>Email : </span>
+                <p id="email">Email Khách Hàng</p>
+              </div>
+              <div class="infor-group">
+                <span>Số Điện Thoại : </span>
+                <p id="phone">SĐT Khách Hàng</p>
+              </div>
+            </div>
+          </div>
+          <div class="address">
+            <div class="header">
+              <h3>Danh Sách Địa Chỉ</h3>
+              <button id="add">Thêm</button>
+            </div>
+            <div class="body"></div>
+          </div>
+          <div class="change-pass">
+            <div class="header">
+              <h3>Đổi Mật Khẩu</h3>
+              <!-- <button id="add">Thêm</button> -->
+            </div>
+            <div class="body">
+              <input
+                type="text"
+                name="oldpass"
+                id="oldpass"
+                placeholder="Mật Khẩu Cũ"
+              />
+              <input
+                type="text"
+                name="newpass"
+                id="newpass"
+                placeholder="Mật Khẩu Mới"
+              />
+              <input
+                type="text"
+                name="renewpass"
+                id="renewpass"
+                placeholder="Nhập Lại Mật Khẩu Cũ"
+              />
+              <input type="button" value="Thay Đổi" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="account.js"></script>

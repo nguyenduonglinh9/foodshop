@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/83045efcea.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- nút scroll to top -->
+      <div class="btnToTop">
+        <i
+          style="width: 20px; height: 20px; color: white"
+          class="fa-regular fa-hand-point-up"
+        ></i>
+      </div>
+      <!-- Thông tin đầu trang -->
+      <div class="container-contact">
+        <div class="contact">
+          <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <p>regfood@gmail.com</p>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <p>+96487452145214</p>
+          </div>
+        </div>
+        <div class="socialmedia">
+          <div class="item">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+      </div>
+      <!-- menu chính chứa logo , menu, giỏ hàng và user -->
+      <div class="main-menu">
+        <img class="logo" src="../../assets/image/logo.png" alt="Logo chính" />
+        <div class="menu">
+          <ul>
+            <li><a href="../home/home.html">Trang chủ</a></li>
+            <li><a href="../about/about.html">Giới thiệu</a></li>
+            <li><a href="../menu/menu.html">Thực đơn</a></li>
+            <li><a href="../blogs/blogs.html">Blog</a></li>
+            <li><a href="../contact/contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="other">
+          <div id="icon-cart-view" class="icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div class="count-carts">
+              <p>0</p>
+            </div>
+          </div>
+          <div id="icon-login" class="icon">
+            <i class="fa-solid fa-user"></i>
+            <div class="nav-menu">
+              <ul>
+                <li>Đăng Nhập</li>
+                <li>Đăng Ký</li>
+              </ul>
+            </div>
+            <div class="nav-menu">
+              <ul>
+                <li id="account">Tài Khoản</li>
+                <li>Đăng Xuất</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- backgound chính -->
+      <div class="bg-banner">
+        <div class="banner"></div>
+        <div class="blue-screen">
+          <h1>Về Chúng Tôi</h1>
+          <div class="control">
+            <i class="fa-solid fa-house"></i>
+            <p id="home">Trang Chủ</p>
+            <p>Về Chúng Tôi</p>
+          </div>
+        </div>
+      </div>
+      <!-- about tab 1 -->
+      <div class="about-tab-1">
+        <div data-aos="fade-right" class="tab-item">
+          <div class="img-container">
+            <img src="../../assets/image/about_chef.jpg" alt="hình chef" />
+          </div>
+          <div class="experience">
+            <h3>12+</h3>
+            <p>Năm Kinh Nghiệm</p>
+          </div>
+          <div class="note">
+            <p>
+              Khi tôi bắt tay vào sáng tạo một món ăn nào đó, điều đầu tiên tôi
+              nghĩ đến là ý nghĩa đằng sau món ăn này là gì?
+            </p>
+            <p>Jhon Deo</p>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="tab-item">
+          <h4>Về Công Ty</h4>
+          <h2>Nhà cung cấp thực phẩm an toàn</h2>
+          <p>
+            Được thành lập từ năm 2010, Thành Nam Food vững mạnh trong xây dựng
+            hệ thống bền chặt, đi từ sản xuất đến thương mại. Hiện nay, Thành
+            Nam Food tự hào là đơn vị uy tín hàng đầu trong lĩnh vực cung cấp
+            lương thực, thực phẩm, bếp ăn công nghiệp cho hàng trăm đơn vị trên
+            khắp các tỉnh thành, trọng điểm là các tỉnh, thành phố phía Nam như
+            TP. HCM, Bình Dương,...
+          </p>
+          <div class="part">
+            <img src="../../assets/image/about_check.png" alt="check-icon" />
+            <div class="part-item">
+              <h4>Đối tác đáng tin cậy</h4>
+              <p>
+                Tập đoàn DKSH khởi nguồn từ những chuyến hải hành của ba doanh
+                nhân người Thụy Sĩ đến châu Á vào cuối thế kỷ 19 mà Việt Nam là
+                một trong những bến cảng đầu tiên cho sự thành công của DKSH
+                ngày hôm nay.
+              </p>
+            </div>
+          </div>
+          <div class="part">
+            <img src="../../assets/image/about_check.png" alt="check-icon" />
+            <div class="part-item">
+              <h4>Giao hàng đầu tiên</h4>
+              <p>
+                à một trong những ứng dụng giao hàng toàn quốc số một Việt Nam,
+                được người dùng ưa chuộng sử dụng. Ứng dụng cung cấp dịch vụ
+                giao hàng tiết kiệm, cước phí rẻ, giao hàng nhanh chóng và hiệu
+                quả.
+              </p>
+            </div>
+          </div>
+          <div class="part">
+            <img src="../../assets/image/about_check.png" alt="check-icon" />
+            <div class="part-item">
+              <h4>Thanh toán an toàn</h4>
+              <p>
+                Với xu hướng thanh toán không chạm, thanh toán điện tử ngày càng
+                “lên ngôi” và được đông đảo mọi người ưa chuộng.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about tab 2 -->
+      <div class="about-tab-2">
+        <div class="box">
+          <div data-aos="flip-left" class="icon">
+            <i
+              style="transform: rotate(-45deg)"
+              class="fa-solid fa-maximize"
+            ></i>
+          </div>
+          <div class="content">
+            <h3>Tầm Nhìn</h3>
+            <p>
+              tầm nhìn được xây dựng nhằm đưa ra những đánh giá về khả năng và
+              hạn chế của doanh nghiệp; cũng như giúp loại bỏ những thất bại,
+              thất vọng và những hoài nghi đối với các nỗ lực quản trị trước
+              đây.
+            </p>
+          </div>
+        </div>
+        <div data-aos="flip-left" class="box">
+          <div class="icon">
+            <i
+              style="transform: rotate(-45deg)"
+              class="fa-solid fa-lightbulb"
+            ></i>
+          </div>
+          <div class="content">
+            <h3>Nhiệm Vụ</h3>
+            <p>
+              Hoạt động bán hàng là một tập hợp các hoạt động và quy trình kinh
+              doanh giúp một tổ chức bán hàng hoạt động hiệu quả, hiệu quả và hỗ
+              trợ các chiến lược và mục tiêu kinh doanh.
+            </p>
+          </div>
+        </div>
+        <div data-aos="flip-left" class="box">
+          <div class="icon">
+            <i
+              style="transform: rotate(-45deg)"
+              class="fa-solid fa-bullseye"
+            ></i>
+          </div>
+          <div class="content">
+            <h3>Mục Tiêu</h3>
+            <p>
+              Thực phẩm sạch là bao gồm những loại thực phẩm không có chứa các
+              chất độc hại trong quá trình nuôi trồng như thuốc trừ sâu, các
+              loại ion và kim loại nặng, nhiễm các tạp chất bẩn từ môi trường
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- about tab 3 -->
+      <div class="about-tab-3">
+        <div class="box">
+          <h4>Tại Sao Lại Là Chúng Tôi</h4>
+          <h2>Nhà cung cấp thực phẩm an toàn</h2>
+          <p>
+            Tại CPFoods.vn, ngoài nguồn thực phẩm tươi sống dồi dào như thịt heo
+            tươi, thịt gà, trứng gà,…, người tiêu dùng hoàn toàn có thể chọn mua
+            những loại thực phẩm đã qua chế biến bao gồm: thực phẩm đông lạnh,
+            thực phẩm chế biến sẵn, thực phẩm tẩm ướp, thịt heo, thịt gà, cá,
+            lạp xưởng, xúc xích, tàu hủ, nem, chả, thủy sản các loại, bánh
+            snack,…
+          </p>
+          <div class="box-group">
+            <div class="box-item">
+              <div class="icon">
+                <i class="fa-solid fa-utensils"></i>
+              </div>
+              <div class="content">
+                <h3>Thực Phẩm Sạch</h3>
+                <p>
+                  Sản phẩm được chứng nhận là Thực Phẩm Sạch phải đồng thời thỏa
+                  mãn 4 yêu cầu. Không sử dụng phân bón hóa học, thuốc bảo vệ
+                  thực vật độc hại, chất kích thích tăng trưởng, chất gây biến
+                  đổi gen.
+                </p>
+              </div>
+            </div>
+            <div class="box-item">
+              <div class="icon">
+                <i class="fa-solid fa-truck"></i>
+              </div>
+              <div class="content">
+                <h3>Vận Chuyển Nhanh</h3>
+                <p>
+                  Công ty giao nhận đầu tiên tại Việt Nam được thành lập với sứ
+                  mệnh phục vụ nhu cầu vận chuyển chuyên nghiệp của các đối tác
+                  Thương mại điện tử trên toàn quốc.
+                </p>
+              </div>
+            </div>
+            <div class="box-item">
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="content">
+                <h3>Duy Trì Chất Lượng</h3>
+                <p>
+                  Chương trình ngành Công nghệ thực phẩm trình độ đại học chất
+                  lượng cao đào tạo các kỹ sưnắm vững kiến thức chuyên môn, có
+                  kỹ năng thực hành thành thạo và kỹ năng nghề nghiệp ứng dụng
+                  tốt
+                </p>
+              </div>
+            </div>
+            <div class="box-item">
+              <div class="icon">
+                <i class="fa-solid fa-headset"></i>
+              </div>
+              <div class="content">
+                <h3>24/7 Hỗ Trợ</h3>
+                <p>
+                  Tất cả nhân viên đều có kiến thức về xe và được đào tạo từ các
+                  trường đại học, chuyên nghành máy. Đảm bảo những vẫn đề vướng
+                  mắc về kỹ thuật của khách hàng đều được giải quyết.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            class="box-item"
+          >
+            <!-- <img src="../../assets/image/about-3-1.jpg" alt="" /> -->
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            class="box-item"
+          >
+            <!-- <img src="../../assets/image/about-3-2.jpg" alt="" /> -->
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            class="box-item"
+          >
+            <!-- <img src="../../assets/image/about-3-3.jpg" alt="" /> -->
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            class="box-item"
+          >
+            <!-- <img src="../../assets/image/about-3-4.jpg" alt="" /> -->
+          </div>
+        </div>
+      </div>
+      <!-- data -->
+      <div class="data-area">
+        <div class="data-container">
+          <div class="blue-screen">
+            <div class="content-container">
+              <div class="data-item">
+                <div class="circle">
+                  <h4>85,000+</h4>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="text">
+                  <p>Khách Hàng</p>
+                </div>
+              </div>
+              <div class="data-item">
+                <div class="circle">
+                  <h4>120+</h4>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-chess-queen"></i>
+                </div>
+                <div class="text">
+                  <p>Đầu Bếp Kinh Nghiệm</p>
+                </div>
+              </div>
+              <div class="data-item">
+                <div class="circle">
+                  <h4>72,000+</h4>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="text">
+                  <p>Sự Hài Lòng</p>
+                </div>
+              </div>
+              <div class="data-item">
+                <div class="circle">
+                  <h4>30+</h4>
+                </div>
+                <div class="icon">
+                  <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="text">
+                  <p>Chứng Nhận</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- feed back -->
+      <div class="feedback-area">
+        <div class="feedback-container">
+          <div class="feedback-header">
+            <div class="text">
+              <h4>Khách Hàng</h4>
+              <h2>Nhận Xét Của Khách Hàng</h2>
+            </div>
+            <div class="feedback-control">
+              <div class="button">
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="button">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="feedback-content"></div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="footer-area">
+        <div class="footer-container">
+          <div class="blue-screen">
+            <div class="footer-item">
+              <img
+                src="../../assets/image/footer_logo.png"
+                alt="logo công ty"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                facere delectus qui placeat inventore consectetur repellendus
+                optio debitis.
+              </p>
+              <div class="social">
+                <div class="social-item">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="social-item">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="social-item">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="social-item">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                </div>
+              </div>
+            </div>
+            <div class="footer-item">
+              <p>Truy Cập</p>
+              <ul>
+                <li><a href="">Trang Chủ</a></li>
+                <li><a href="">Giới Thiệu</a></li>
+                <li><a href="">Thực Đơn</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Liên Hệ</a></li>
+              </ul>
+            </div>
+            <div class="footer-item">
+              <p>Liên Hệ</p>
+              <div class="contact">
+                <div class="contact-item">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>+44 (0) 20 9994 7740</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>themefaxbd@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>Blackwell Street,Dry Creek,Alaska</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="about.js"></script>
+<script>
+  AOS.init();
+</script>
